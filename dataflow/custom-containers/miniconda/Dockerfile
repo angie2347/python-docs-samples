@@ -26,7 +26,7 @@ RUN conda create -y -n env python=3.9 \
     && /opt/python/bin/conda-unpack
 
 # -- Main image
-FROM ubuntu:latest
+FROM ubuntu:22.10
 
 WORKDIR /pipeline
 
